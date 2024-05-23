@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm bài viết mới</title>
+</head>
+<body>
+    <p style="text-align: right;font-weight: bold;"><a href="./index.html">Trang chủ</a>|Giới thiệu|Tin Tức|Liên Hệ|<a href="./quan_tri_bai_viet.html">Quản trị bài viết</a></p>
+    <h1 style="text-align: center ; text-transform: uppercase;"><b>Thêm bài viết mới</b></h1>
+</body>
+<form action="./admin/quan_tri_bai_viet.html" method="post">
+    <input name="txtTieude" type="text" placeholder="Tiêu đề" style="width: 100%;">
+    <textarea placeholder="Mô tả bài viết" style="width: 100%;" rows="5"></textarea>
+    <p>Ảnh Minh Họa : <input type="file" name="txtAnhMinhHoa" ></p>
+    <textarea placeholder="Nội dung bài viết" style="width: 100%;" rows="15"></textarea>
+    <p style="text-align: right;">
+        <input type="submit" value="Thêm mới">
+        <input type="reset" value="reset">
+    </p>
+</form>
+</html>
